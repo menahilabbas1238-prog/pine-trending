@@ -18,7 +18,10 @@ export const revalidate = 60;
 async function fetchPostFromGitHub(slug: string) {
   const url = `https://raw.githubusercontent.com/menahilabbas1238-prog/pine-trending/main/content/posts/${slug}.md`;
   const res = await fetch(url, { cache: "no-store" });
-  if (!res.ok) return null;
+  if (!res.ok) {
+    console.error("fetchPostFromGitHub failed", { slug, status: res.status, url });
+    return null;
+  }
   const raw = await res.text();
   const { data, content } = matter(raw);
   const rt = readingTime(content);
