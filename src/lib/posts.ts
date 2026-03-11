@@ -21,12 +21,8 @@ export type Post = {
 
 const POSTS_DIR = path.join(process.cwd(), "content", "posts");
 
-function ensureDir() {
-  if (!fs.existsSync(POSTS_DIR)) fs.mkdirSync(POSTS_DIR, { recursive: true });
-}
-
 export function getAllPostSlugs(): string[] {
-  ensureDir();
+  if (!fs.existsSync(POSTS_DIR)) return [];
   return fs
     .readdirSync(POSTS_DIR)
     .filter((f) => f.endsWith(".md"))
@@ -36,7 +32,6 @@ export function getAllPostSlugs(): string[] {
 }
 
 export function getPostBySlug(slug: string): Post {
-  ensureDir();
   const fullPath = path.join(POSTS_DIR, `${slug}.md`);
 
   if (!fs.existsSync(fullPath)) {
