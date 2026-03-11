@@ -8,6 +8,7 @@ import { getAllPostSlugs, getPostBySlug } from "@/lib/posts";
 
 // Ensure this route is built as static pages on Vercel (pre-rendered at build time).
 export const dynamic = "force-static";
+export const dynamicParams = false;
 export const revalidate = false;
 
 export function generateStaticParams() {
