@@ -2,26 +2,41 @@ import { notFound } from "next/navigation";
 import { ArrowUpRight, Clock3 } from "lucide-react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import matter from "gray-matter";
+import readingTime from "reading-time";
 
 import { SiteShell } from "@/components/SiteShell";
-import { getAllPostSlugs, getPostBySlug } from "@/lib/posts";
+import { getPostBySlug } from "@/lib/posts";
 
-// Ensure this route runs on Node.js (needs fs) and is pre-rendered at build time.
+// Vercel 환경에서 content/posts 디렉토리 번들링/권한 이슈로 404가 나오는 케이스가 있어,
+// 1) 로컬 파일시스템에서 먼저 읽고
+// 2) 없으면 GitHub raw로 fallback 해서 항상 글을 보여주도록 처리.
 export const runtime = "nodejs";
-export const dynamic = "force-static";
-export const dynamicParams = false;
-export const revalidate = false;
+export const dynamic = "force-dynamic";
+export const revalidate = 60;
 
-export function generateStaticParams() {
-  return getAllPostSlugs().map((slug) => ({ slug }));
+async function fetchPostFromGitHub(slug: string) {
+  const url = `https://raw.githubusercontent.com/menahilabbas1238-prog/pine-trending/main/content/posts/${slug}.md`;
+  const res = await fetch(url, { cache: "no-store" });
+  if (!res.ok) return null;
+  const raw = await res.text();
+  const { data, content } = matter(raw);
+  const rt = readingTime(content);
+  return {
+    slug,
+    frontmatter: data as any,
+    content,
+    readingMinutes: Math.max(1, Math.round(rt.minutes)),
+  };
 }
 
-export default function PostPage({ params }: { params: { slug: string } }) {
+export default async function PostPage({ params }: { params: { slug: string } }) {
   let post;
   try {
     post = getPostBySlug(params.slug);
   } catch {
-    return notFound();
+    post = await fetchPostFromGitHub(params.slug);
+    if (!post) return notFound();
   }
 
   return (
