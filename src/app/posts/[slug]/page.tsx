@@ -33,12 +33,20 @@ async function fetchPostFromGitHub(slug: string) {
   };
 }
 
-export default async function PostPage({ params }: { params: { slug: string } }) {
+export default async function PostPage({
+  params,
+}: {
+  params: { slug: string } | Promise<{ slug: string }>;
+}) {
+  const resolved = await Promise.resolve(params as any);
+  const slug = resolved?.slug;
+  if (!slug) return notFound();
+
   let post;
   try {
-    post = getPostBySlug(params.slug);
+    post = getPostBySlug(slug);
   } catch {
-    post = await fetchPostFromGitHub(params.slug);
+    post = await fetchPostFromGitHub(slug);
     if (!post) return notFound();
   }
 
