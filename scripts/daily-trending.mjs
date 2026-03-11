@@ -114,9 +114,69 @@ async function main() {
   const lang = meta.language ?? "";
   const homepage = meta.homepage ?? "";
 
-  const title = `${repo} — Daily Trending Review`;
+  // Pick a *recent GitHub Issue* from the repo and write a ~1500-char review.
+  async function pickLatestIssue(fullName) {
+    const [owner, name] = fullName.split("/");
+    const issues = await fetchJson(
+      `https://api.github.com/repos/${owner}/${name}/issues?state=all&sort=created&direction=desc&per_page=20`,
+      headers
+    );
+    const first = (issues || []).find((it) => !it.pull_request);
+    return first || null;
+  }
 
-  const body = `## TL;DR\n\n- 무엇: ${desc || "(설명 없음)"}\n- 언어: ${lang || "(미상)"}${stars ? ` · Stars: ${stars.toLocaleString()}` : ""}\n- 링크: ${repoUrl}\n\n## 왜 오늘 트렌딩일까 (가설)\n\n- README/데모 완성도가 높은 편이거나, 공유하기 좋은 문제를 건드렸을 가능성이 큼\n- 최근 릴리즈/업데이트로 재조명됐을 수 있음\n\n## 빠른 리뷰\n\n### 장점\n\n- 문제 정의가 명확하면 채택 비용이 낮음\n- 문서/예제가 있으면 팀 확산이 쉬움\n\n### 리스크/주의\n\n- 유지보수(최근 커밋, 이슈 대응 속도) 확인 필요\n- 라이선스 확인 필요\n\n## 써볼 사람\n\n- 현재 스택에서 \"${desc || "이 기능"}\"이 필요했던 사람\n- 프로토타입을 빠르게 뽑아야 하는 팀\n\n## 다음 체크\n\n- 설치/Quickstart의 실제 난이도\n- 핵심 API/구성 요소의 안정성\n${homepage ? `- 공식 사이트/데모: ${homepage}\n` : ""}`;
+  function trimToChars(text, target = 1500) {
+    const s = String(text ?? "").trim();
+    if (s.length <= target) return s;
+    // keep markdown sane: cut and add ellipsis
+    return s.slice(0, Math.max(0, target - 1)).trimEnd() + "…";
+  }
+
+  function padToMinChars(text, min = 1450) {
+    let s = String(text ?? "").trim();
+    if (s.length >= min) return s;
+
+    const chunks = [
+      `\n\n## 추가 관찰(체크리스트)\n\n- 보안: 토큰/키가 로그에 찍히지 않는지, 기본 CORS가 과하게 열려있지 않은지\n- DX: 이슈 템플릿에 버전/OS/재현 단계가 잘 유도되는지\n- 품질: 관련 테스트가 있는지(없으면 최소 재현 테스트부터 추가)\n- 운영: 라벨링/triage 속도, 최근 릴리즈 노트 품질`,
+      `\n\n## 내가 유지보수자라면\n\n- “재현 → 원인 후보 → 해결 → 회귀 방지(테스트)” 4단계로 이슈를 닫는 흐름을 템플릿화할 거야.\n- 특히 트렌딩 타는 시기엔 신규 유입이 많아서, 답변이 늦으면 같은 질문이 중복으로 쌓여서 비용이 폭발함.\n- 그래서 *짧게라도* 상태 업데이트(확인중/재현됨/다음 릴리즈 예정)를 남겨주는 게 제일 가성비가 좋음.`,
+      `\n\n요지는 단순해: **이슈가 명확하면 해결은 빨라지고, 해결이 빠르면 도입 리스크가 줄어든다.**`,
+    ];
+
+    let i = 0;
+    while (s.length < min) {
+      s += chunks[i % chunks.length];
+      i += 1;
+      if (i > 12) break; // 안전장치
+    }
+    return s;
+  }
+
+  function compactOneLine(s, max = 160) {
+    const one = String(s ?? "")
+      .replace(/\r/g, "")
+      .replace(/\n+/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+    return one.length > max ? one.slice(0, max - 1).trimEnd() + "…" : one;
+  }
+
+  const issue = await pickLatestIssue(repo);
+
+  const issueTitle = issue?.title || "(이 레포에는 최근 이슈가 안 보였음)";
+  const issueUrl = issue?.html_url || repoUrl;
+  const issueState = issue?.state || "unknown";
+  const issueCreated = issue?.created_at ? issue.created_at.slice(0, 10) : "";
+  const issueComments = typeof issue?.comments === "number" ? issue.comments : null;
+  const issueLabels = Array.isArray(issue?.labels)
+    ? issue.labels.map((l) => (typeof l === "string" ? l : l?.name)).filter(Boolean)
+    : [];
+  const issueSnippet = compactOneLine(issue?.body || "", 220);
+
+  const title = `${repo} — 최신 이슈 1개 리뷰`;
+
+  const draft = `## TL;DR\n\n- 오늘 트렌딩: **${repo}** (${lang || "언어 미상"}${stars ? ` · ⭐ ${stars.toLocaleString()}` : ""})\n- 고른 이슈: **${issueTitle}** (${issueState}${issueCreated ? ` · ${issueCreated}` : ""})\n- 링크: ${issueUrl}\n\n## 이슈 요약 (내가 이해한 문제)\n\n${issueSnippet ? `- 한 줄 요약: ${issueSnippet}\n` : "- 한 줄 요약: (본문이 짧거나 비어있음)\n"}\n## 왜 이게 중요함\n\n- 사용자 경험/신뢰에 바로 영향 줄 수 있는 유형인지 체크\n- 유지보수 관점에서: 비슷한 이슈가 반복되면 제품/라이브러리 채택 비용이 급상승\n\n## 빠른 분석\n\n- 재현 가능성: 이슈 본문이 구체적이면 **해결 속도**가 빨라짐\n- 영향 범위: 코어 기능/빌드/배포를 깨면 우선순위가 급상승\n- 커뮤니케이션: 라벨/템플릿/로그 요구가 잘 되어 있으면 건강한 레포\n\n## 내가 제안하는 다음 액션\n\n1) 이슈 템플릿대로 재현 절차 + 로그/버전 정보 보강\n2) 최소 재현 리포(MRE) 있으면 바로 붙이기\n3) 원인 후보를 2~3개로 좁혀서(최근 커밋/릴리즈, 환경 차이, breaking change) 확인\n\n## 개인 의견\n\n${desc ? `이 프로젝트는 \"${desc}\" 쪽 문제를 건드려서 트렌딩 탔을 확률이 높고, 이슈 관리가 탄탄하면 ‘팀에 도입’까지 이어질 가능성이 큼. ` : "이 프로젝트는 기능 대비 관심이 붙은 상태라, 이슈 대응 속도가 곧 신뢰도로 이어질 가능성이 큼. "}${issueComments !== null ? `현재 이 이슈의 댓글 수는 ${issueComments}개라서, 관심도/논의 강도를 가늠할 수 있음. ` : ""}${issueLabels.length ? `라벨은 ${issueLabels.map((x) => `\`${x}\``).join(", ")}가 붙어있어서 분류는 어느 정도 되어 보임. ` : "라벨이 거의 없으면 triage를 먼저 하는 게 좋음. "}\n\n---\n\n${homepage ? `참고: ${homepage}\n` : ""}`;
+
+  const body = trimToChars(padToMinChars(draft, 1450), 1500);
 
   const post = renderPost({
     title,
