@@ -3,6 +3,7 @@
     "msitarzewski/agency-agents",
     "666ghj/MiroFish",
     "microsoft/BitNet",
-    "langflow-ai/openrag"
+    "langflow-ai/openrag",
+    "volcengine/OpenViking"
   ]
 }
