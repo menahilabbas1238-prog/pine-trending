@@ -5,6 +5,7 @@
     "microsoft/BitNet",
     "langflow-ai/openrag",
     "volcengine/OpenViking",
-    "lightpanda-io/browser"
+    "lightpanda-io/browser",
+    "thedotmack/claude-mem"
   ]
 }
