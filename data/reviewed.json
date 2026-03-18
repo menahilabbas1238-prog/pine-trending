@@ -6,6 +6,7 @@
     "langflow-ai/openrag",
     "volcengine/OpenViking",
     "lightpanda-io/browser",
-    "thedotmack/claude-mem"
+    "thedotmack/claude-mem",
+    "obra/superpowers"
   ]
 }
