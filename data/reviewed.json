@@ -8,6 +8,7 @@
     "lightpanda-io/browser",
     "thedotmack/claude-mem",
     "obra/superpowers",
-    "jarrodwatts/claude-hud"
+    "jarrodwatts/claude-hud",
+    "opendataloader-project/opendataloader-pdf"
   ]
 }
