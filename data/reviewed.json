@@ -9,6 +9,7 @@
     "thedotmack/claude-mem",
     "obra/superpowers",
     "jarrodwatts/claude-hud",
-    "opendataloader-project/opendataloader-pdf"
+    "opendataloader-project/opendataloader-pdf",
+    "langchain-ai/open-swe"
   ]
 }
