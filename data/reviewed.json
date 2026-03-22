@@ -10,6 +10,7 @@
     "obra/superpowers",
     "jarrodwatts/claude-hud",
     "opendataloader-project/opendataloader-pdf",
-    "langchain-ai/open-swe"
+    "langchain-ai/open-swe",
+    "FujiwaraChoki/MoneyPrinterV2"
   ]
 }
