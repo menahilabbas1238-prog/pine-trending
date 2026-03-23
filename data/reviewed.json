@@ -11,6 +11,7 @@
     "jarrodwatts/claude-hud",
     "opendataloader-project/opendataloader-pdf",
     "langchain-ai/open-swe",
-    "FujiwaraChoki/MoneyPrinterV2"
+    "FujiwaraChoki/MoneyPrinterV2",
+    "TauricResearch/TradingAgents"
   ]
 }
