@@ -12,6 +12,7 @@
     "opendataloader-project/opendataloader-pdf",
     "langchain-ai/open-swe",
     "FujiwaraChoki/MoneyPrinterV2",
-    "TauricResearch/TradingAgents"
+    "TauricResearch/TradingAgents",
+    "bytedance/deer-flow"
   ]
 }
