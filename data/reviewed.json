@@ -13,6 +13,7 @@
     "langchain-ai/open-swe",
     "FujiwaraChoki/MoneyPrinterV2",
     "TauricResearch/TradingAgents",
-    "bytedance/deer-flow"
+    "bytedance/deer-flow",
+    "pascalorg/editor"
   ]
 }
