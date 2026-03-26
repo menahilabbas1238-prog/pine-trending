@@ -14,6 +14,7 @@
     "FujiwaraChoki/MoneyPrinterV2",
     "TauricResearch/TradingAgents",
     "bytedance/deer-flow",
-    "pascalorg/editor"
+    "pascalorg/editor",
+    "mvanhorn/last30days-skill"
   ]
 }
