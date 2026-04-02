@@ -21,6 +21,7 @@
     "SakanaAI/AI-Scientist-v2",
     "luongnv89/claude-howto",
     "microsoft/VibeVoice",
-    "shanraisshan/claude-code-best-practice"
+    "shanraisshan/claude-code-best-practice",
+    "anthropics/claude-code"
   ]
 }
