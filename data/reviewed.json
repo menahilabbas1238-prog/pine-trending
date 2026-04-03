@@ -22,6 +22,7 @@
     "luongnv89/claude-howto",
     "microsoft/VibeVoice",
     "shanraisshan/claude-code-best-practice",
-    "anthropics/claude-code"
+    "anthropics/claude-code",
+    "siddharthvaddem/openscreen"
   ]
 }
