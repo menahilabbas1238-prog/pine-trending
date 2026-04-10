@@ -29,6 +29,7 @@
     "google-ai-edge/gallery",
     "abhigyanpatwari/GitNexus",
     "google-ai-edge/LiteRT-LM",
-    "forrestchang/andrej-karpathy-skills"
+    "forrestchang/andrej-karpathy-skills",
+    "NousResearch/hermes-agent"
   ]
 }
