@@ -30,6 +30,7 @@
     "abhigyanpatwari/GitNexus",
     "google-ai-edge/LiteRT-LM",
     "forrestchang/andrej-karpathy-skills",
-    "NousResearch/hermes-agent"
+    "NousResearch/hermes-agent",
+    "microsoft/markitdown"
   ]
 }
