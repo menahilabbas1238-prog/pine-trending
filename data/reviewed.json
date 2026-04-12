@@ -31,6 +31,7 @@
     "google-ai-edge/LiteRT-LM",
     "forrestchang/andrej-karpathy-skills",
     "NousResearch/hermes-agent",
-    "microsoft/markitdown"
+    "microsoft/markitdown",
+    "coleam00/Archon"
   ]
 }
