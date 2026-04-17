@@ -36,6 +36,7 @@
     "shiyu-coder/Kronos",
     "multica-ai/multica",
     "jamiepine/voicebox",
-    "Lordog/dive-into-llms"
+    "Lordog/dive-into-llms",
+    "lsdefine/GenericAgent"
   ]
 }
