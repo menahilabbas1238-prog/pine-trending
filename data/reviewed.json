@@ -37,6 +37,7 @@
     "multica-ai/multica",
     "jamiepine/voicebox",
     "Lordog/dive-into-llms",
-    "lsdefine/GenericAgent"
+    "lsdefine/GenericAgent",
+    "EvoMap/evolver"
   ]
 }
