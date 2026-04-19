@@ -38,6 +38,7 @@
     "jamiepine/voicebox",
     "Lordog/dive-into-llms",
     "lsdefine/GenericAgent",
-    "EvoMap/evolver"
+    "EvoMap/evolver",
+    "thunderbird/thunderbolt"
   ]
 }
