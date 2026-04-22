@@ -41,6 +41,7 @@
     "EvoMap/evolver",
     "thunderbird/thunderbolt",
     "Fincept-Corporation/FinceptTerminal",
-    "ruvnet/RuView"
+    "ruvnet/RuView",
+    "zilliztech/claude-context"
   ]
 }
