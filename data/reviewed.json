@@ -43,6 +43,7 @@
     "Fincept-Corporation/FinceptTerminal",
     "ruvnet/RuView",
     "zilliztech/claude-context",
-    "koala73/worldmonitor"
+    "koala73/worldmonitor",
+    "huggingface/ml-intern"
   ]
 }
