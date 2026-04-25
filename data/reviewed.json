@@ -44,6 +44,7 @@
     "ruvnet/RuView",
     "zilliztech/claude-context",
     "koala73/worldmonitor",
-    "huggingface/ml-intern"
+    "huggingface/ml-intern",
+    "Alishahryar1/free-claude-code"
   ]
 }
