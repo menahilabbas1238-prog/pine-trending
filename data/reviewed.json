@@ -53,6 +53,7 @@
     "warpdotdev/warp",
     "lukilabs/craft-agents-oss",
     "soxoj/maigret",
-    "ruvnet/ruflo"
+    "ruvnet/ruflo",
+    "Hmbown/DeepSeek-TUI"
   ]
 }
