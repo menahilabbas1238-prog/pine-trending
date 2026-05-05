@@ -54,6 +54,7 @@
     "lukilabs/craft-agents-oss",
     "soxoj/maigret",
     "ruvnet/ruflo",
-    "Hmbown/DeepSeek-TUI"
+    "Hmbown/DeepSeek-TUI",
+    "browserbase/skills"
   ]
 }
