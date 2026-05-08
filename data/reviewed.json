@@ -57,6 +57,7 @@
     "Hmbown/DeepSeek-TUI",
     "browserbase/skills",
     "virattt/dexter",
-    "addyosmani/agent-skills"
+    "addyosmani/agent-skills",
+    "anthropics/financial-services"
   ]
 }
