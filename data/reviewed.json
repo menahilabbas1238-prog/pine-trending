@@ -58,6 +58,7 @@
     "browserbase/skills",
     "virattt/dexter",
     "addyosmani/agent-skills",
-    "anthropics/financial-services"
+    "anthropics/financial-services",
+    "z-lab/dflash"
   ]
 }
