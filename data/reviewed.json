@@ -59,6 +59,7 @@
     "virattt/dexter",
     "addyosmani/agent-skills",
     "anthropics/financial-services",
-    "z-lab/dflash"
+    "z-lab/dflash",
+    "bytedance/UI-TARS-desktop"
   ]
 }
