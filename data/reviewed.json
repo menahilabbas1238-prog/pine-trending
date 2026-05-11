@@ -60,6 +60,7 @@
     "addyosmani/agent-skills",
     "anthropics/financial-services",
     "z-lab/dflash",
-    "bytedance/UI-TARS-desktop"
+    "bytedance/UI-TARS-desktop",
+    "CloakHQ/CloakBrowser"
   ]
 }
