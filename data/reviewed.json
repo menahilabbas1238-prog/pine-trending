@@ -63,6 +63,7 @@
     "bytedance/UI-TARS-desktop",
     "CloakHQ/CloakBrowser",
     "yikart/AiToEarn",
-    "tinyhumansai/openhuman"
+    "tinyhumansai/openhuman",
+    "rohitg00/agentmemory"
   ]
 }
