@@ -64,6 +64,7 @@
     "CloakHQ/CloakBrowser",
     "yikart/AiToEarn",
     "tinyhumansai/openhuman",
-    "rohitg00/agentmemory"
+    "rohitg00/agentmemory",
+    "K-Dense-AI/scientific-agent-skills"
   ]
 }
