@@ -67,6 +67,7 @@
     "rohitg00/agentmemory",
     "K-Dense-AI/scientific-agent-skills",
     "supertone-inc/supertonic",
-    "oven-sh/bun"
+    "oven-sh/bun",
+    "HKUDS/CLI-Anything"
   ]
 }
