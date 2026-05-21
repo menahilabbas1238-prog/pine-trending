@@ -70,6 +70,7 @@
     "oven-sh/bun",
     "HKUDS/CLI-Anything",
     "Imbad0202/academic-research-skills",
-    "anthropics/claude-plugins-official"
+    "anthropics/claude-plugins-official",
+    "colbymchenry/codegraph"
   ]
 }
