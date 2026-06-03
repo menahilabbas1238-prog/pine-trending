@@ -83,6 +83,7 @@
     "EveryInc/compound-engineering-plugin",
     "cursor/plugins",
     "D4Vinci/Scrapling",
-    "nesquena/hermes-webui"
+    "nesquena/hermes-webui",
+    "chopratejas/headroom"
   ]
 }
