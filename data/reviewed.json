@@ -84,6 +84,7 @@
     "cursor/plugins",
     "D4Vinci/Scrapling",
     "nesquena/hermes-webui",
-    "chopratejas/headroom"
+    "chopratejas/headroom",
+    "aquasecurity/trivy"
   ]
 }
