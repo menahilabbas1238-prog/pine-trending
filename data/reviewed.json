@@ -85,6 +85,7 @@
     "D4Vinci/Scrapling",
     "nesquena/hermes-webui",
     "chopratejas/headroom",
-    "aquasecurity/trivy"
+    "aquasecurity/trivy",
+    "PaddlePaddle/PaddleOCR"
   ]
 }
