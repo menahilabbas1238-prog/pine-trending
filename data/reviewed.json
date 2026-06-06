@@ -86,6 +86,7 @@
     "nesquena/hermes-webui",
     "chopratejas/headroom",
     "aquasecurity/trivy",
-    "PaddlePaddle/PaddleOCR"
+    "PaddlePaddle/PaddleOCR",
+    "CopilotKit/CopilotKit"
   ]
 }
