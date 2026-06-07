@@ -87,6 +87,7 @@
     "chopratejas/headroom",
     "aquasecurity/trivy",
     "PaddlePaddle/PaddleOCR",
-    "CopilotKit/CopilotKit"
+    "CopilotKit/CopilotKit",
+    "MemPalace/mempalace"
   ]
 }
