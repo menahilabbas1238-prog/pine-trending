@@ -88,6 +88,7 @@
     "aquasecurity/trivy",
     "PaddlePaddle/PaddleOCR",
     "CopilotKit/CopilotKit",
-    "MemPalace/mempalace"
+    "MemPalace/mempalace",
+    "opencv/opencv"
   ]
 }
