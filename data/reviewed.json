@@ -89,6 +89,7 @@
     "PaddlePaddle/PaddleOCR",
     "CopilotKit/CopilotKit",
     "MemPalace/mempalace",
-    "opencv/opencv"
+    "opencv/opencv",
+    "RyanCodrai/turbovec"
   ]
 }
