@@ -90,6 +90,7 @@
     "CopilotKit/CopilotKit",
     "MemPalace/mempalace",
     "opencv/opencv",
-    "RyanCodrai/turbovec"
+    "RyanCodrai/turbovec",
+    "roboflow/supervision"
   ]
 }
