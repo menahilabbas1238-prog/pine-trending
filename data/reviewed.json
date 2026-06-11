@@ -91,6 +91,7 @@
     "MemPalace/mempalace",
     "opencv/opencv",
     "RyanCodrai/turbovec",
-    "roboflow/supervision"
+    "roboflow/supervision",
+    "phuryn/pm-skills"
   ]
 }
