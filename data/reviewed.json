@@ -93,6 +93,7 @@
     "RyanCodrai/turbovec",
     "roboflow/supervision",
     "phuryn/pm-skills",
-    "apple/container"
+    "apple/container",
+    "music-assistant/server"
   ]
 }
