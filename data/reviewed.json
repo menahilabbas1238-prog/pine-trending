@@ -94,6 +94,7 @@
     "roboflow/supervision",
     "phuryn/pm-skills",
     "apple/container",
-    "music-assistant/server"
+    "music-assistant/server",
+    "iptv-org/iptv"
   ]
 }
