@@ -95,6 +95,7 @@
     "phuryn/pm-skills",
     "apple/container",
     "music-assistant/server",
-    "iptv-org/iptv"
+    "iptv-org/iptv",
+    "freeCodeCamp/freeCodeCamp"
   ]
 }
