@@ -99,6 +99,7 @@
     "freeCodeCamp/freeCodeCamp",
     "teslamate-org/teslamate",
     "swc-project/swc",
-    "DeusData/codebase-memory-mcp"
+    "DeusData/codebase-memory-mcp",
+    "google-research/timesfm"
   ]
 }
