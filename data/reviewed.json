@@ -101,6 +101,7 @@
     "swc-project/swc",
     "DeusData/codebase-memory-mcp",
     "google-research/timesfm",
-    "palmier-io/palmier-pro"
+    "palmier-io/palmier-pro",
+    "penpot/penpot"
   ]
 }
