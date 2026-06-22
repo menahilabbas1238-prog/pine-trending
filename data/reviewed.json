@@ -102,6 +102,7 @@
     "DeusData/codebase-memory-mcp",
     "google-research/timesfm",
     "palmier-io/palmier-pro",
-    "penpot/penpot"
+    "penpot/penpot",
+    "calesthio/OpenMontage"
   ]
 }
