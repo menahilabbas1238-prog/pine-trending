@@ -103,6 +103,7 @@
     "google-research/timesfm",
     "palmier-io/palmier-pro",
     "penpot/penpot",
-    "calesthio/OpenMontage"
+    "calesthio/OpenMontage",
+    "Stirling-Tools/Stirling-PDF"
   ]
 }
