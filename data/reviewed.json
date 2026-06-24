@@ -104,6 +104,7 @@
     "palmier-io/palmier-pro",
     "penpot/penpot",
     "calesthio/OpenMontage",
-    "Stirling-Tools/Stirling-PDF"
+    "Stirling-Tools/Stirling-PDF",
+    "ZhuLinsen/daily_stock_analysis"
   ]
 }
