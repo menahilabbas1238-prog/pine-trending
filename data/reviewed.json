@@ -110,6 +110,7 @@
     "google-labs-code/design.md",
     "simplex-chat/simplex-chat",
     "xbtlin/ai-berkshire",
-    "ripienaar/free-for-dev"
+    "ripienaar/free-for-dev",
+    "cupy/cupy"
   ]
 }
