@@ -112,6 +112,7 @@
     "xbtlin/ai-berkshire",
     "ripienaar/free-for-dev",
     "cupy/cupy",
-    "hasaneyldrm/exercises-dataset"
+    "hasaneyldrm/exercises-dataset",
+    "usestrix/strix"
   ]
 }
