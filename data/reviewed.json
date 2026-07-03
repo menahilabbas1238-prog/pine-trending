@@ -113,6 +113,7 @@
     "ripienaar/free-for-dev",
     "cupy/cupy",
     "hasaneyldrm/exercises-dataset",
-    "usestrix/strix"
+    "usestrix/strix",
+    "JuliusBrussee/caveman"
   ]
 }
