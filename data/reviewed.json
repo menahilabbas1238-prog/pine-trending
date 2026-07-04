@@ -114,6 +114,7 @@
     "cupy/cupy",
     "hasaneyldrm/exercises-dataset",
     "usestrix/strix",
-    "JuliusBrussee/caveman"
+    "JuliusBrussee/caveman",
+    "openai/codex-plugin-cc"
   ]
 }
