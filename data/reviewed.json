@@ -115,6 +115,7 @@
     "hasaneyldrm/exercises-dataset",
     "usestrix/strix",
     "JuliusBrussee/caveman",
-    "openai/codex-plugin-cc"
+    "openai/codex-plugin-cc",
+    "alibaba/page-agent"
   ]
 }
