@@ -116,6 +116,7 @@
     "usestrix/strix",
     "JuliusBrussee/caveman",
     "openai/codex-plugin-cc",
-    "alibaba/page-agent"
+    "alibaba/page-agent",
+    "asgeirtj/system_prompts_leaks"
   ]
 }
