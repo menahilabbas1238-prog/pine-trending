@@ -119,6 +119,7 @@
     "alibaba/page-agent",
     "asgeirtj/system_prompts_leaks",
     "MadsLorentzen/ai-job-search",
-    "TencentCloud/TencentDB-Agent-Memory"
+    "TencentCloud/TencentDB-Agent-Memory",
+    "SmartlyDressedGames/U3-SDK"
   ]
 }
