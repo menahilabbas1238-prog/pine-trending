@@ -121,6 +121,7 @@
     "MadsLorentzen/ai-job-search",
     "TencentCloud/TencentDB-Agent-Memory",
     "SmartlyDressedGames/U3-SDK",
-    "wonderwhy-er/DesktopCommanderMCP"
+    "wonderwhy-er/DesktopCommanderMCP",
+    "catchorg/Catch2"
   ]
 }
