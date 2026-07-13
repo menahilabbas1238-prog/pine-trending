@@ -122,6 +122,7 @@
     "TencentCloud/TencentDB-Agent-Memory",
     "SmartlyDressedGames/U3-SDK",
     "wonderwhy-er/DesktopCommanderMCP",
-    "catchorg/Catch2"
+    "catchorg/Catch2",
+    "Dicklesworthstone/destructive_command_guard"
   ]
 }
