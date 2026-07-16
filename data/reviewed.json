@@ -125,6 +125,7 @@
     "catchorg/Catch2",
     "Dicklesworthstone/destructive_command_guard",
     "OpenCut-app/OpenCut",
-    "Shubhamsaboo/awesome-llm-apps"
+    "Shubhamsaboo/awesome-llm-apps",
+    "Nutlope/hallmark"
   ]
 }
