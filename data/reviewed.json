@@ -136,6 +136,7 @@
     "schollz/croc",
     "block/buzz",
     "ComposioHQ/awesome-claude-skills",
-    "alibaba/open-code-review"
+    "alibaba/open-code-review",
+    "permissionlesstech/bitchat"
   ]
 }
