@@ -139,6 +139,7 @@
     "alibaba/open-code-review",
     "permissionlesstech/bitchat",
     "amnezia-vpn/amnezia-client",
-    "jenkinsci/jenkins"
+    "jenkinsci/jenkins",
+    "opengeos/GeoLibre"
   ]
 }
