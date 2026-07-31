@@ -140,6 +140,7 @@
     "permissionlesstech/bitchat",
     "amnezia-vpn/amnezia-client",
     "jenkinsci/jenkins",
-    "opengeos/GeoLibre"
+    "opengeos/GeoLibre",
+    "huggingface/speech-to-speech"
   ]
 }
