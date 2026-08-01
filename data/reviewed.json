@@ -141,6 +141,7 @@
     "amnezia-vpn/amnezia-client",
     "jenkinsci/jenkins",
     "opengeos/GeoLibre",
-    "huggingface/speech-to-speech"
+    "huggingface/speech-to-speech",
+    "zhaoxuya520/reverse-skill"
   ]
 }
