@@ -142,6 +142,7 @@
     "jenkinsci/jenkins",
     "opengeos/GeoLibre",
     "huggingface/speech-to-speech",
-    "zhaoxuya520/reverse-skill"
+    "zhaoxuya520/reverse-skill",
+    "microsoft/AI-For-Beginners"
   ]
 }
