@@ -144,6 +144,7 @@
     "huggingface/speech-to-speech",
     "zhaoxuya520/reverse-skill",
     "microsoft/AI-For-Beginners",
-    "usekaneo/kaneo"
+    "usekaneo/kaneo",
+    "lyogavin/airllm"
   ]
 }
