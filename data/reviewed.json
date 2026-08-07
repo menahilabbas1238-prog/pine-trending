@@ -147,6 +147,7 @@
     "usekaneo/kaneo",
     "lyogavin/airllm",
     "firecrawl/pdf-inspector",
-    "cloudflare/computer"
+    "cloudflare/computer",
+    "goauthentik/authentik"
   ]
 }
