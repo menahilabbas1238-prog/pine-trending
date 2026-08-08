@@ -148,6 +148,7 @@
     "lyogavin/airllm",
     "firecrawl/pdf-inspector",
     "cloudflare/computer",
-    "goauthentik/authentik"
+    "goauthentik/authentik",
+    "PrimeIntellect-ai/prime-agent"
   ]
 }
