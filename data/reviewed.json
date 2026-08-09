@@ -149,6 +149,7 @@
     "firecrawl/pdf-inspector",
     "cloudflare/computer",
     "goauthentik/authentik",
-    "PrimeIntellect-ai/prime-agent"
+    "PrimeIntellect-ai/prime-agent",
+    "TapXWorld/ChinaTextbook"
   ]
 }
