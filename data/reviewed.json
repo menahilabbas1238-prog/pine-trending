@@ -150,6 +150,7 @@
     "cloudflare/computer",
     "goauthentik/authentik",
     "PrimeIntellect-ai/prime-agent",
-    "TapXWorld/ChinaTextbook"
+    "TapXWorld/ChinaTextbook",
+    "vitali87/code-graph-rag"
   ]
 }
