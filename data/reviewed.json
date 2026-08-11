@@ -151,6 +151,7 @@
     "goauthentik/authentik",
     "PrimeIntellect-ai/prime-agent",
     "TapXWorld/ChinaTextbook",
-    "vitali87/code-graph-rag"
+    "vitali87/code-graph-rag",
+    "semantica-agi/semantica"
   ]
 }
