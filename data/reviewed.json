@@ -152,6 +152,7 @@
     "PrimeIntellect-ai/prime-agent",
     "TapXWorld/ChinaTextbook",
     "vitali87/code-graph-rag",
-    "semantica-agi/semantica"
+    "semantica-agi/semantica",
+    "nvm-sh/nvm"
   ]
 }
