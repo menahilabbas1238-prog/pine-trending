@@ -154,6 +154,7 @@
     "vitali87/code-graph-rag",
     "semantica-agi/semantica",
     "nvm-sh/nvm",
-    "cathrynlavery/diagram-design"
+    "cathrynlavery/diagram-design",
+    "anthropics/skills"
   ]
 }
