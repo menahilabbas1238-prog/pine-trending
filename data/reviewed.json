@@ -155,6 +155,7 @@
     "semantica-agi/semantica",
     "nvm-sh/nvm",
     "cathrynlavery/diagram-design",
-    "anthropics/skills"
+    "anthropics/skills",
+    "cactus-compute/needle"
   ]
 }
