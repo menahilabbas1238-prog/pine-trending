@@ -156,6 +156,7 @@
     "nvm-sh/nvm",
     "cathrynlavery/diagram-design",
     "anthropics/skills",
-    "cactus-compute/needle"
+    "cactus-compute/needle",
+    "cordiverse/cordis"
   ]
 }
