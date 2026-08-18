@@ -158,6 +158,7 @@
     "anthropics/skills",
     "cactus-compute/needle",
     "cordiverse/cordis",
-    "basecamp/omarchy"
+    "basecamp/omarchy",
+    "nautechsystems/nautilus_trader"
   ]
 }
