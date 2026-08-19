@@ -159,6 +159,7 @@
     "cactus-compute/needle",
     "cordiverse/cordis",
     "basecamp/omarchy",
-    "nautechsystems/nautilus_trader"
+    "nautechsystems/nautilus_trader",
+    "chaitanyagiri/munder-difflin"
   ]
 }
