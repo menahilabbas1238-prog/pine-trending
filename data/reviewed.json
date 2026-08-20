@@ -160,6 +160,7 @@
     "cordiverse/cordis",
     "basecamp/omarchy",
     "nautechsystems/nautilus_trader",
-    "chaitanyagiri/munder-difflin"
+    "chaitanyagiri/munder-difflin",
+    "jundot/omlx"
   ]
 }
