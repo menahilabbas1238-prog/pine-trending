@@ -161,6 +161,7 @@
     "basecamp/omarchy",
     "nautechsystems/nautilus_trader",
     "chaitanyagiri/munder-difflin",
-    "jundot/omlx"
+    "jundot/omlx",
+    "modular/modular"
   ]
 }
