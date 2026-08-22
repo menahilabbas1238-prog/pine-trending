@@ -162,6 +162,7 @@
     "nautechsystems/nautilus_trader",
     "chaitanyagiri/munder-difflin",
     "jundot/omlx",
-    "modular/modular"
+    "modular/modular",
+    "mahlernim/google-timeline-visualizer"
   ]
 }
