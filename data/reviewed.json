@@ -163,6 +163,7 @@
     "chaitanyagiri/munder-difflin",
     "jundot/omlx",
     "modular/modular",
-    "mahlernim/google-timeline-visualizer"
+    "mahlernim/google-timeline-visualizer",
+    "openai/codex"
   ]
 }
