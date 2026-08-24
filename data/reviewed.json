@@ -164,6 +164,7 @@
     "jundot/omlx",
     "modular/modular",
     "mahlernim/google-timeline-visualizer",
-    "openai/codex"
+    "openai/codex",
+    "freestylefly/awesome-gpt-image-2"
   ]
 }
