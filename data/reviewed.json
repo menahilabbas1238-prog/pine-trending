@@ -166,6 +166,7 @@
     "mahlernim/google-timeline-visualizer",
     "openai/codex",
     "freestylefly/awesome-gpt-image-2",
-    "makeplane/plane"
+    "makeplane/plane",
+    "anthropics/claude-plugins-community"
   ]
 }
