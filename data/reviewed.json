@@ -169,6 +169,7 @@
     "makeplane/plane",
     "anthropics/claude-plugins-community",
     "zedeus/nitter",
-    "tt-a1i/archify"
+    "tt-a1i/archify",
+    "bilawalsidhu/gods-eye-view"
   ]
 }
