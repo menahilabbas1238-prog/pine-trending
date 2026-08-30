@@ -170,6 +170,7 @@
     "anthropics/claude-plugins-community",
     "zedeus/nitter",
     "tt-a1i/archify",
-    "bilawalsidhu/gods-eye-view"
+    "bilawalsidhu/gods-eye-view",
+    "tailscale/tailcat"
   ]
 }
