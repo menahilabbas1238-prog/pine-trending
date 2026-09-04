@@ -175,6 +175,7 @@
     "THU-MAIC/OpenMAIC",
     "k1tbyte/Wand-Enhancer",
     "Gitlawb/openclaude",
-    "fmtlib/fmt"
+    "fmtlib/fmt",
+    "DietrichGebert/ponytail"
   ]
 }
