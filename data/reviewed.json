@@ -176,6 +176,7 @@
     "k1tbyte/Wand-Enhancer",
     "Gitlawb/openclaude",
     "fmtlib/fmt",
-    "DietrichGebert/ponytail"
+    "DietrichGebert/ponytail",
+    "blader/humanizer"
   ]
 }
