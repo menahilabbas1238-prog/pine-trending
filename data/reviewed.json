@@ -177,6 +177,7 @@
     "Gitlawb/openclaude",
     "fmtlib/fmt",
     "DietrichGebert/ponytail",
-    "blader/humanizer"
+    "blader/humanizer",
+    "anomalyco/opencode"
   ]
 }
