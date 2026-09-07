@@ -178,6 +178,7 @@
     "fmtlib/fmt",
     "DietrichGebert/ponytail",
     "blader/humanizer",
-    "anomalyco/opencode"
+    "anomalyco/opencode",
+    "openai/skills"
   ]
 }
