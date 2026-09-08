@@ -179,6 +179,7 @@
     "DietrichGebert/ponytail",
     "blader/humanizer",
     "anomalyco/opencode",
-    "openai/skills"
+    "openai/skills",
+    "heygen-com/hyperframes"
   ]
 }
