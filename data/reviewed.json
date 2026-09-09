@@ -180,6 +180,7 @@
     "blader/humanizer",
     "anomalyco/opencode",
     "openai/skills",
-    "heygen-com/hyperframes"
+    "heygen-com/hyperframes",
+    "coreyhaines31/marketingskills"
   ]
 }
