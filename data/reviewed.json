@@ -181,6 +181,7 @@
     "anomalyco/opencode",
     "openai/skills",
     "heygen-com/hyperframes",
-    "coreyhaines31/marketingskills"
+    "coreyhaines31/marketingskills",
+    "Tencent/teamai-cli"
   ]
 }
