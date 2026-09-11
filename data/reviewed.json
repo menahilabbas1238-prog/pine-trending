@@ -182,6 +182,7 @@
     "openai/skills",
     "heygen-com/hyperframes",
     "coreyhaines31/marketingskills",
-    "Tencent/teamai-cli"
+    "Tencent/teamai-cli",
+    "alsk1992/CloddsBot"
   ]
 }
