@@ -189,6 +189,7 @@
     "JustVugg/colibri",
     "multimodal-art-projection/YuE",
     "ever-co/ever-gauzy",
-    "cloudflare/security-audit-skill"
+    "cloudflare/security-audit-skill",
+    "Tencent/BrowserSkill"
   ]
 }
