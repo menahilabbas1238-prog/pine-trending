@@ -191,6 +191,7 @@
     "ever-co/ever-gauzy",
     "cloudflare/security-audit-skill",
     "Tencent/BrowserSkill",
-    "TencentCloud/Octop"
+    "TencentCloud/Octop",
+    "trycua/cua"
   ]
 }
