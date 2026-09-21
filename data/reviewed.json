@@ -192,6 +192,7 @@
     "cloudflare/security-audit-skill",
     "Tencent/BrowserSkill",
     "TencentCloud/Octop",
-    "trycua/cua"
+    "trycua/cua",
+    "BuilderIO/agent-native"
   ]
 }
