@@ -193,6 +193,7 @@
     "Tencent/BrowserSkill",
     "TencentCloud/Octop",
     "trycua/cua",
-    "BuilderIO/agent-native"
+    "BuilderIO/agent-native",
+    "Open-Dev-Society/OpenStock"
   ]
 }
