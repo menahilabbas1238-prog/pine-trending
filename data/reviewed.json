@@ -194,6 +194,7 @@
     "TencentCloud/Octop",
     "trycua/cua",
     "BuilderIO/agent-native",
-    "Open-Dev-Society/OpenStock"
+    "Open-Dev-Society/OpenStock",
+    "agent-substrate/substrate"
   ]
 }
