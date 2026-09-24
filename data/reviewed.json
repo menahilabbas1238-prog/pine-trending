@@ -195,6 +195,7 @@
     "trycua/cua",
     "BuilderIO/agent-native",
     "Open-Dev-Society/OpenStock",
-    "agent-substrate/substrate"
+    "agent-substrate/substrate",
+    "google/ax"
   ]
 }
