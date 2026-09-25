@@ -196,6 +196,7 @@
     "BuilderIO/agent-native",
     "Open-Dev-Society/OpenStock",
     "agent-substrate/substrate",
-    "google/ax"
+    "google/ax",
+    "vectorize-io/hindsight"
   ]
 }
