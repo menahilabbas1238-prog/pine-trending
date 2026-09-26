@@ -197,6 +197,7 @@
     "Open-Dev-Society/OpenStock",
     "agent-substrate/substrate",
     "google/ax",
-    "vectorize-io/hindsight"
+    "vectorize-io/hindsight",
+    "paperclipai/paperclip"
   ]
 }
