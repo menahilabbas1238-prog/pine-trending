@@ -198,6 +198,7 @@
     "agent-substrate/substrate",
     "google/ax",
     "vectorize-io/hindsight",
-    "paperclipai/paperclip"
+    "paperclipai/paperclip",
+    "NVIDIA/Model-Optimizer"
   ]
 }
