@@ -199,6 +199,7 @@
     "google/ax",
     "vectorize-io/hindsight",
     "paperclipai/paperclip",
-    "NVIDIA/Model-Optimizer"
+    "NVIDIA/Model-Optimizer",
+    "debpalash/VoiceStudio"
   ]
 }
