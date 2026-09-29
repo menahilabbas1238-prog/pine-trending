@@ -200,6 +200,7 @@
     "vectorize-io/hindsight",
     "paperclipai/paperclip",
     "NVIDIA/Model-Optimizer",
-    "debpalash/VoiceStudio"
+    "debpalash/VoiceStudio",
+    "NawfalMotii79/PLFM_RADAR"
   ]
 }
