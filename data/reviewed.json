@@ -201,6 +201,7 @@
     "paperclipai/paperclip",
     "NVIDIA/Model-Optimizer",
     "debpalash/VoiceStudio",
-    "NawfalMotii79/PLFM_RADAR"
+    "NawfalMotii79/PLFM_RADAR",
+    "NVIDIA/OpenShell"
   ]
 }
