@@ -202,6 +202,7 @@
     "NVIDIA/Model-Optimizer",
     "debpalash/VoiceStudio",
     "NawfalMotii79/PLFM_RADAR",
-    "NVIDIA/OpenShell"
+    "NVIDIA/OpenShell",
+    "mvschwarz/openrig"
   ]
 }
