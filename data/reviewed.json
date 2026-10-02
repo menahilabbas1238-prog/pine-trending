@@ -203,6 +203,7 @@
     "debpalash/VoiceStudio",
     "NawfalMotii79/PLFM_RADAR",
     "NVIDIA/OpenShell",
-    "mvschwarz/openrig"
+    "mvschwarz/openrig",
+    "firebase/firebase-ios-sdk"
   ]
 }
