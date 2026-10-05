@@ -206,6 +206,7 @@
     "mvschwarz/openrig",
     "firebase/firebase-ios-sdk",
     "Panniantong/Agent-Reach",
-    "pbakaus/impeccable"
+    "pbakaus/impeccable",
+    "tester-army/e2e"
   ]
 }
