@@ -207,6 +207,7 @@
     "firebase/firebase-ios-sdk",
     "Panniantong/Agent-Reach",
     "pbakaus/impeccable",
-    "tester-army/e2e"
+    "tester-army/e2e",
+    "earthtojake/text-to-cad"
   ]
 }
