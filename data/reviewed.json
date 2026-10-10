@@ -211,6 +211,7 @@
     "earthtojake/text-to-cad",
     "boykopovar/AnyPS5",
     "morluto/rea",
-    "EpicGames/raddebugger"
+    "EpicGames/raddebugger",
+    "BerriAI/litellm"
   ]
 }
