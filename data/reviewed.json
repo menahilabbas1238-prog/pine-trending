@@ -212,6 +212,7 @@
     "boykopovar/AnyPS5",
     "morluto/rea",
     "EpicGames/raddebugger",
-    "BerriAI/litellm"
+    "BerriAI/litellm",
+    "storytold/artcraft"
   ]
 }
