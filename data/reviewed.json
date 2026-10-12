@@ -213,6 +213,7 @@
     "morluto/rea",
     "EpicGames/raddebugger",
     "BerriAI/litellm",
-    "storytold/artcraft"
+    "storytold/artcraft",
+    "pytorch/pytorch"
   ]
 }
