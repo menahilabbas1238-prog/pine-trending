@@ -215,6 +215,7 @@
     "BerriAI/litellm",
     "storytold/artcraft",
     "pytorch/pytorch",
-    "mksglu/context-mode"
+    "mksglu/context-mode",
+    "vercel-labs/skills"
   ]
 }
