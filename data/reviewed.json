@@ -216,6 +216,7 @@
     "storytold/artcraft",
     "pytorch/pytorch",
     "mksglu/context-mode",
-    "vercel-labs/skills"
+    "vercel-labs/skills",
+    "ifixai-ai/iFixAi"
   ]
 }
