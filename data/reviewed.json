@@ -217,6 +217,7 @@
     "pytorch/pytorch",
     "mksglu/context-mode",
     "vercel-labs/skills",
-    "ifixai-ai/iFixAi"
+    "ifixai-ai/iFixAi",
+    "NationalSecurityAgency/ghidra"
   ]
 }
