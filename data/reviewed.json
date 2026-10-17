@@ -218,6 +218,7 @@
     "mksglu/context-mode",
     "vercel-labs/skills",
     "ifixai-ai/iFixAi",
-    "NationalSecurityAgency/ghidra"
+    "NationalSecurityAgency/ghidra",
+    "android/skills"
   ]
 }
