@@ -220,6 +220,7 @@
     "ifixai-ai/iFixAi",
     "NationalSecurityAgency/ghidra",
     "android/skills",
-    "akitaonrails/ai-memory"
+    "akitaonrails/ai-memory",
+    "stablyai/orca"
   ]
 }
