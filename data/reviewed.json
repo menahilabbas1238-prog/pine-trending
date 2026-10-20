@@ -221,6 +221,7 @@
     "NationalSecurityAgency/ghidra",
     "android/skills",
     "akitaonrails/ai-memory",
-    "stablyai/orca"
+    "stablyai/orca",
+    "Comfy-Org/ComfyUI"
   ]
 }
