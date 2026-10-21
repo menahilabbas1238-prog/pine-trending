@@ -222,6 +222,7 @@
     "android/skills",
     "akitaonrails/ai-memory",
     "stablyai/orca",
-    "Comfy-Org/ComfyUI"
+    "Comfy-Org/ComfyUI",
+    "Graphify-Labs/graphify"
   ]
 }
