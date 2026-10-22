@@ -223,6 +223,7 @@
     "akitaonrails/ai-memory",
     "stablyai/orca",
     "Comfy-Org/ComfyUI",
-    "Graphify-Labs/graphify"
+    "Graphify-Labs/graphify",
+    "vllm-project/vllm"
   ]
 }
