@@ -225,6 +225,7 @@
     "Comfy-Org/ComfyUI",
     "Graphify-Labs/graphify",
     "vllm-project/vllm",
-    "php/php-src"
+    "php/php-src",
+    "Renhuai123/ziwei-doushu"
   ]
 }
