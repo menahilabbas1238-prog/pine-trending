@@ -227,6 +227,7 @@
     "vllm-project/vllm",
     "php/php-src",
     "Renhuai123/ziwei-doushu",
-    "aws/agent-toolkit-for-aws"
+    "aws/agent-toolkit-for-aws",
+    "makecindy/cindy"
   ]
 }
