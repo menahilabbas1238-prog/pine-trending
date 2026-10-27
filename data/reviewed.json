@@ -228,6 +228,7 @@
     "php/php-src",
     "Renhuai123/ziwei-doushu",
     "aws/agent-toolkit-for-aws",
-    "makecindy/cindy"
+    "makecindy/cindy",
+    "JetBrains/thinkrail"
   ]
 }
