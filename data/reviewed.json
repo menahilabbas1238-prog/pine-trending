@@ -230,6 +230,7 @@
     "aws/agent-toolkit-for-aws",
     "makecindy/cindy",
     "JetBrains/thinkrail",
-    "elayadesign/ai-design-skills"
+    "elayadesign/ai-design-skills",
+    "HKUDS/DeepTutor"
   ]
 }
