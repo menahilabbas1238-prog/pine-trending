@@ -232,6 +232,7 @@
     "JetBrains/thinkrail",
     "elayadesign/ai-design-skills",
     "HKUDS/DeepTutor",
-    "milind-soni/OpenMausBot"
+    "milind-soni/OpenMausBot",
+    "CopilotKit/OpenBot"
   ]
 }
