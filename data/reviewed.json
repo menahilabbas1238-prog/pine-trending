@@ -235,6 +235,7 @@
     "milind-soni/OpenMausBot",
     "CopilotKit/OpenBot",
     "Donchitos/Claude-Code-Game-Studios",
-    "pingdotgg/t3code"
+    "pingdotgg/t3code",
+    "vercel-labs/agent-desktop"
   ]
 }
