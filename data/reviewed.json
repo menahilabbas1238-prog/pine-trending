@@ -236,6 +236,7 @@
     "CopilotKit/OpenBot",
     "Donchitos/Claude-Code-Game-Studios",
     "pingdotgg/t3code",
-    "vercel-labs/agent-desktop"
+    "vercel-labs/agent-desktop",
+    "max-sixty/worktrunk"
   ]
 }
