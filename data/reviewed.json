@@ -238,6 +238,7 @@
     "pingdotgg/t3code",
     "vercel-labs/agent-desktop",
     "max-sixty/worktrunk",
-    "NVIDIA/auto-ontology"
+    "NVIDIA/auto-ontology",
+    "garrytan/gstack"
   ]
 }
