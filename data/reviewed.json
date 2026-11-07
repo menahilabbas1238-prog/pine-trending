@@ -239,6 +239,7 @@
     "vercel-labs/agent-desktop",
     "max-sixty/worktrunk",
     "NVIDIA/auto-ontology",
-    "garrytan/gstack"
+    "garrytan/gstack",
+    "zed-industries/zed"
   ]
 }
