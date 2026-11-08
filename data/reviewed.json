@@ -240,6 +240,7 @@
     "max-sixty/worktrunk",
     "NVIDIA/auto-ontology",
     "garrytan/gstack",
-    "zed-industries/zed"
+    "zed-industries/zed",
+    "vercel-labs/agent-browser"
   ]
 }
