@@ -241,6 +241,7 @@
     "NVIDIA/auto-ontology",
     "garrytan/gstack",
     "zed-industries/zed",
-    "vercel-labs/agent-browser"
+    "vercel-labs/agent-browser",
+    "meta/astryx"
   ]
 }
