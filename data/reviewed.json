@@ -242,6 +242,7 @@
     "garrytan/gstack",
     "zed-industries/zed",
     "vercel-labs/agent-browser",
-    "meta/astryx"
+    "meta/astryx",
+    "anthropics/claude-quickstarts"
   ]
 }
