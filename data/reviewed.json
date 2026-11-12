@@ -243,6 +243,7 @@
     "zed-industries/zed",
     "vercel-labs/agent-browser",
     "meta/astryx",
-    "anthropics/claude-quickstarts"
+    "anthropics/claude-quickstarts",
+    "GoogleChrome/modern-web-guidance-src"
   ]
 }
