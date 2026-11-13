@@ -244,6 +244,7 @@
     "vercel-labs/agent-browser",
     "meta/astryx",
     "anthropics/claude-quickstarts",
-    "GoogleChrome/modern-web-guidance-src"
+    "GoogleChrome/modern-web-guidance-src",
+    "openai/codex-security"
   ]
 }
