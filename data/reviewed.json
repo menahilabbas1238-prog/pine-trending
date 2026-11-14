@@ -245,6 +245,7 @@
     "meta/astryx",
     "anthropics/claude-quickstarts",
     "GoogleChrome/modern-web-guidance-src",
-    "openai/codex-security"
+    "openai/codex-security",
+    "we-promise/sure"
   ]
 }
