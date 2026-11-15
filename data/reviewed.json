@@ -246,6 +246,7 @@
     "anthropics/claude-quickstarts",
     "GoogleChrome/modern-web-guidance-src",
     "openai/codex-security",
-    "we-promise/sure"
+    "we-promise/sure",
+    "backnotprop/plannotator"
   ]
 }
