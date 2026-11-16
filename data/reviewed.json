@@ -247,6 +247,7 @@
     "GoogleChrome/modern-web-guidance-src",
     "openai/codex-security",
     "we-promise/sure",
-    "backnotprop/plannotator"
+    "backnotprop/plannotator",
+    "dream-num/univer"
   ]
 }
