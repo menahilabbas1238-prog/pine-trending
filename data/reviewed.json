@@ -248,6 +248,7 @@
     "openai/codex-security",
     "we-promise/sure",
     "backnotprop/plannotator",
-    "dream-num/univer"
+    "dream-num/univer",
+    "ag-ui-protocol/ag-ui"
   ]
 }
