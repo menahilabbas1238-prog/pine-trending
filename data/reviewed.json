@@ -252,6 +252,7 @@
     "ag-ui-protocol/ag-ui",
     "elementalsouls/Claude-BugHunter",
     "getarcaneapp/arcane",
-    "jingyaogong/minimind"
+    "jingyaogong/minimind",
+    "firecrawl/firecrawl"
   ]
 }
